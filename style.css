@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+  
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+body {
+    background: #275c8d;
+    background: linear-gradient(to right, #2e4c74, #297fb9);
+}
+  
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+}
+  
+.btn-signup {
+    color: rgb(255, 255, 255) !important;
+    background-color: #f05749;
+}
+.btn-signup:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: #ee877e;
+}
+  
+.btn-signin {
+    color: rgb(255, 255, 255) !important;
+    background-color: #0059ff;
+}
+.btn-signin:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: #8fadee;
+}
